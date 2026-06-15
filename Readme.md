@@ -8,10 +8,51 @@ podman build --platform linux/amd64 --tag dns-test:0.1 .
 
 ## Run
 
+```shell
+# Build log location
+logs="logs/$(date +%Y%m%d-%H%M%S)"
+
+run-test () {
+    conf=$1
+    mkdir -p $logs/${conf%.*}
+    nohup podman run --rm -it --env CONF="$(cat $conf)" --publish 8053:53/udp --cap-add NET_RAW --cap-add NET_ADMIN --name dns-test dns-test:0.1 2> $logs/${conf%.*}/server-err.txt | tee $logs/${conf%.*}/server.txt &
+    sleep 1
+    nohup podman exec -it dns-test tshark -i lo -i enp13s0 -P -w /tmp/server.pcap -f "port 53" | tee $logs/${conf%.*}/server-trace.txt &
+    sleep 1
+    for i in 0 1 2 3 4 5; do
+        dig @127.0.0.1 -p 8053 ads.google.com | tee $logs/${conf%.*}/${i}-client.txt &
+        sleep 2
+        ((i++))
+    done
+    kill %2
+    podman cp dns-test:/tmp/server.pcap $logs/${conf%.*}/
+    podman stop dns-test
+    ((test++))
+}
+
+# Get a list of named conf files, that require Internet
+for conf in named-!(*no-internet).conf; do
+    echo $conf
+    run-test $conf
+done
+
+echo "disable FW rule then press enter"
+read fwdisabled
+
+# Get a list of named conf files, that require Internet
+for conf in named-*no-internet.conf; do
+    echo $conf
+    run-test $conf
+done
+
+echo "enable FW rule then press enter"
+read fwenabled
+```
+
 ### Recursive to Roots
 
 ```shell
-podman run --rm -d --env CONF="$(cat named-roots-only.conf)" --publish 8053:53/udp --cap-add NET_RAW --cap-add NET_ADMIN --name dns-test dns-test
+podman run --rm -d --env CONF="$(cat named-roots-only.conf)" --publish 8053:53/udp --cap-add NET_RAW --cap-add NET_ADMIN --name dns-test dns-test:0.1
 podman exec -it dns-test tshark -i lo -i wlan0 -f "port 53"
 ```
 

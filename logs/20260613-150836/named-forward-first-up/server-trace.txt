@@ -1,0 +1,31 @@
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'Loopback: lo' and 'enp13s0'
+    1 0.000000000 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0x87f2 A ads.google.com OPT
+    2 0.003597146 192.168.0.12 ? 192.168.0.12 DNS 129 Standard query response 0x87f2 A ads.google.com A 0.0.0.0 OPT
+    3 0.000461953 192.168.0.12 ? 193.0.14.129 DNS 82 Standard query 0xa8a0 NS <Root> OPT
+    4 0.000493585 192.168.0.12 ? 192.168.0.25 DNS 97 Standard query 0x7c09 A ads.google.com OPT
+    5 0.003411554 192.168.0.25 ? 192.168.0.12 DNS 114 Standard query response 0x7c09 A ads.google.com A 0.0.0.0 OPT
+    6 0.059049666 193.0.14.129 ? 192.168.0.12 DNS 1259 Standard query response 0xa8a0 NS <Root> NS a.root-servers.net NS b.root-servers.net NS c.root-servers.net NS d.root-servers.net NS e.root-servers.net NS f.root-servers.net NS g.root-servers.net NS h.root-servers.net NS i.root-servers.net NS j.root-servers.net NS k.root-servers.net NS l.root-servers.net NS m.root-servers.net RRSIG A 198.41.0.4 AAAA 2001:503:ba3e::2:30 A 170.247.170.2 AAAA 2801:1b8:10::b A 192.33.4.12 AAAA 2001:500:2::c A 199.7.91.13 AAAA 2001:500:2d::d A 192.203.230.10 AAAA 2001:500:a8::e A 192.5.5.241 AAAA 2001:500:2f::f A 192.112.36.4 AAAA 2001:500:12::d0d A 198.97.190.53 AAAA 2001:500:1::53 A 192.36.148.17 AAAA 2001:7fe::53 A 192.58.128.30 AAAA 2001:503:c27::2:30 A 193.0.14.129 AAAA 2001:7fd::1 A 199.7.83.42 OPT
+    7 2.015057645 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0xb019 A ads.google.com OPT
+    8 2.018808812 192.168.0.12 ? 192.168.0.12 DNS 129 Standard query response 0xb019 A ads.google.com A 0.0.0.0 OPT
+    9 2.015564880 192.168.0.12 ? 192.168.0.26 DNS 97 Standard query 0xcecc A ads.google.com OPT
+   10 2.015569718 192.168.0.12 ? 192.36.148.17 DNS 82 Standard query 0x298c NS <Root> OPT
+   11 2.018562487 192.168.0.26 ? 192.168.0.12 DNS 114 Standard query response 0xcecc A ads.google.com A 0.0.0.0 OPT
+   12 2.816679275 192.168.0.12 ? 202.12.27.33 DNS 82 Standard query 0x5de7 NS <Root> OPT
+   13 2.870463826 202.12.27.33 ? 192.168.0.12 DNS 1151 Standard query response 0x5de7 NS <Root> NS k.root-servers.net NS j.root-servers.net NS c.root-servers.net NS h.root-servers.net NS m.root-servers.net NS f.root-servers.net NS g.root-servers.net NS b.root-servers.net NS e.root-servers.net NS d.root-servers.net NS i.root-servers.net NS l.root-servers.net NS a.root-servers.net RRSIG A 202.12.27.33 A 199.7.83.42 A 193.0.14.129 A 192.58.128.30 A 192.36.148.17 A 198.97.190.53 A 192.112.36.4 A 192.5.5.241 A 192.203.230.10 A 199.7.91.13 A 192.33.4.12 A 170.247.170.2 A 198.41.0.4 AAAA 2001:dc3::35 AAAA 2001:500:9f::42 AAAA 2001:7fd::1 AAAA 2001:503:c27::2:30 AAAA 2001:7fe::53 AAAA 2001:500:1::53 AAAA 2001:500:12::d0d AAAA 2001:500:2f::f AAAA 2001:500:a8::e AAAA 2001:500:2d::d AAAA 2001:500:2::c AAAA 2801:1b8:10::b AAAA 2001:503:ba3e::2:30 OPT
+   14 4.006884903 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0x223d A ads.google.com OPT
+   15 4.008740376 192.168.0.12 ? 192.168.0.12 DNS 129 Standard query response 0x223d A ads.google.com A 0.0.0.0 OPT
+   16 4.007120704 192.168.0.12 ? 192.168.0.25 DNS 97 Standard query 0x9baa A ads.google.com OPT
+   17 4.008593347 192.168.0.25 ? 192.168.0.12 DNS 114 Standard query response 0x9baa A ads.google.com A 0.0.0.0 OPT
+   18 6.008329948 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0x154a A ads.google.com OPT
+   19 6.011178156 192.168.0.12 ? 192.168.0.12 DNS 129 Standard query response 0x154a A ads.google.com A 0.0.0.0 OPT
+   20 6.008480101 192.168.0.12 ? 192.168.0.26 DNS 97 Standard query 0xc130 A ads.google.com OPT
+   21 6.011095367 192.168.0.26 ? 192.168.0.12 DNS 114 Standard query response 0xc130 A ads.google.com A 0.0.0.0 OPT
+   22 8.038603658 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0x262b A ads.google.com OPT
+   23 8.041838692 192.168.0.12 ? 192.168.0.12 DNS 129 Standard query response 0x262b A ads.google.com A 0.0.0.0 OPT
+   24 8.039135234 192.168.0.12 ? 192.168.0.25 DNS 97 Standard query 0x8389 A ads.google.com OPT
+   25 8.041571482 192.168.0.25 ? 192.168.0.12 DNS 114 Standard query response 0x8389 A ads.google.com A 0.0.0.0 OPT
+   26 10.021606521 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0xd4ea A ads.google.com OPT
+   27 10.024549525 192.168.0.12 ? 192.168.0.12 DNS 129 Standard query response 0xd4ea A ads.google.com A 0.0.0.0 OPT
+   28 10.021785040 192.168.0.12 ? 192.168.0.26 DNS 97 Standard query 0x0320 A ads.google.com OPT
+   29 10.024445540 192.168.0.26 ? 192.168.0.12 DNS 114 Standard query response 0x0320 A ads.google.com A 0.0.0.0 OPT

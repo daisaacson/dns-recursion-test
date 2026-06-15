@@ -1,0 +1,19 @@
+
+; <<>> DiG 9.18.48 <<>> @127.0.0.1 -p 8053 ads.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 13325
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 019a68e85a77de06010000006a2dbf9976cdb9c34577bd99 (good)
+;; QUESTION SECTION:
+;ads.google.com.			IN	A
+
+;; Query time: 3968 msec
+;; SERVER: 127.0.0.1#8053(127.0.0.1) (UDP)
+;; WHEN: Sat Jun 13 15:37:45 CDT 2026
+;; MSG SIZE  rcvd: 71
+

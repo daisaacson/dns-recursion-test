@@ -1,0 +1,22 @@
+
+; <<>> DiG 9.18.48 <<>> @127.0.0.1 -p 8053 ads.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55619
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: b7435da3923483e3010000006a2f5c9d3f4087b2ba4bccad (good)
+;; QUESTION SECTION:
+;ads.google.com.			IN	A
+
+;; ANSWER SECTION:
+ads.google.com.		300	IN	A	142.251.214.78
+
+;; Query time: 1 msec
+;; SERVER: 127.0.0.1#8053(127.0.0.1) (UDP)
+;; WHEN: Sun Jun 14 20:59:57 CDT 2026
+;; MSG SIZE  rcvd: 87
+

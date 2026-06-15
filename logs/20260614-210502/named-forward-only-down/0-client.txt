@@ -1,0 +1,20 @@
+;; communications error to 127.0.0.1#8053: timed out
+
+; <<>> DiG 9.18.48 <<>> @127.0.0.1 -p 8053 ads.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 27160
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 6026760903eb517c010000006a2f5df7ff5b769cd6d1511d (good)
+;; QUESTION SECTION:
+;ads.google.com.			IN	A
+
+;; Query time: 4997 msec
+;; SERVER: 127.0.0.1#8053(127.0.0.1) (UDP)
+;; WHEN: Sun Jun 14 21:05:43 CDT 2026
+;; MSG SIZE  rcvd: 71
+

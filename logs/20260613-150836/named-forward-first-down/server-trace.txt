@@ -1,0 +1,98 @@
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'Loopback: lo' and 'enp13s0'
+    1 0.000000000 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0x2bb6 A ads.google.com OPT
+    2 0.000679085 192.168.0.12 ? 192.168.66.25 DNS 97 Standard query 0x917b A ads.google.com OPT
+    3 0.000848475 192.168.0.12 ? 192.58.128.30 DNS 82 Standard query 0xd00f NS <Root> OPT
+    4 0.019687723 192.58.128.30 ? 192.168.0.12 DNS 1259 Standard query response 0xd00f NS <Root> NS a.root-servers.net NS b.root-servers.net NS c.root-servers.net NS d.root-servers.net NS e.root-servers.net NS f.root-servers.net NS g.root-servers.net NS h.root-servers.net NS i.root-servers.net NS j.root-servers.net NS k.root-servers.net NS l.root-servers.net NS m.root-servers.net RRSIG A 198.41.0.4 AAAA 2001:503:ba3e::2:30 A 170.247.170.2 AAAA 2801:1b8:10::b A 192.33.4.12 AAAA 2001:500:2::c A 199.7.91.13 AAAA 2001:500:2d::d A 192.203.230.10 AAAA 2001:500:a8::e A 192.5.5.241 AAAA 2001:500:2f::f A 192.112.36.4 AAAA 2001:500:12::d0d A 198.97.190.53 AAAA 2001:500:1::53 A 192.36.148.17 AAAA 2001:7fe::53 A 192.58.128.30 AAAA 2001:503:c27::2:30 A 193.0.14.129 AAAA 2001:7fd::1 A 199.7.83.42 OPT
+    5 1.201403456 192.168.0.12 ? 192.168.66.26 DNS 97 Standard query 0xb75c A ads.google.com OPT
+    6 2.012267581 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0x34a4 A ads.google.com OPT
+    7 2.402358950 192.168.0.12 ? 192.58.128.30 DNS 97 Standard query 0x58e5 A ads.google.com OPT
+    8 2.421093121 192.58.128.30 ? 192.168.0.12 DNS 1216 Standard query response 0x58e5 A ads.google.com NS a.gtld-servers.net NS b.gtld-servers.net NS c.gtld-servers.net NS d.gtld-servers.net NS e.gtld-servers.net NS f.gtld-servers.net NS g.gtld-servers.net NS h.gtld-servers.net NS i.gtld-servers.net NS j.gtld-servers.net NS k.gtld-servers.net NS l.gtld-servers.net NS m.gtld-servers.net DS RRSIG A 192.5.6.30 AAAA 2001:503:a83e::2:30 A 192.33.14.30 AAAA 2001:503:231d::2:30 A 192.26.92.30 AAAA 2001:503:83eb::30 A 192.31.80.30 AAAA 2001:500:856e::30 A 192.12.94.30 AAAA 2001:502:1ca1::30 A 192.35.51.30 AAAA 2001:503:d414::30 A 192.42.93.30 AAAA 2001:503:eea3::30 A 192.54.112.30 AAAA 2001:502:8cc::30 A 192.43.172.30 AAAA 2001:503:39c1::30 A 192.48.79.30 AAAA 2001:502:7094::30 A 192.52.178.30 AAAA 2001:503:d2d::30 A 192.41.162.30 AAAA 2001:500:d937::30 A 192.55.83.30 AAAA 2001:501:b1f9::30 OPT
+    9 2.422809278 192.168.0.12 ? 192.203.230.10 DNS 82 Standard query 0x679e NS <Root> OPT
+   10 2.422827225 192.168.0.12 ? 192.168.66.26 DNS 101 Standard query 0x1601 A c.gtld-servers.net OPT
+   11 2.423076556 192.168.0.12 ? 192.168.66.26 DNS 101 Standard query 0x1f96 A a.gtld-servers.net OPT
+   12 2.423101190 192.168.0.12 ? 192.168.66.26 DNS 101 Standard query 0x8d71 A b.gtld-servers.net OPT
+   13 2.423141744 192.168.0.12 ? 192.168.66.26 DNS 101 Standard query 0xb73f A d.gtld-servers.net OPT
+   14 2.423229545 192.168.0.12 ? 192.168.66.26 DNS 101 Standard query 0x8d53 A e.gtld-servers.net OPT
+   15 2.442632438 192.203.230.10 ? 192.168.0.12 DNS 1139 Standard query response 0x679e NS <Root> NS a.root-servers.net NS b.root-servers.net NS c.root-servers.net NS d.root-servers.net NS e.root-servers.net NS f.root-servers.net NS g.root-servers.net NS h.root-servers.net NS i.root-servers.net NS j.root-servers.net NS k.root-servers.net NS l.root-servers.net NS m.root-servers.net RRSIG A 198.41.0.4 AAAA 2001:503:ba3e::2:30 A 170.247.170.2 AAAA 2801:1b8:10::b A 192.33.4.12 AAAA 2001:500:2::c A 199.7.91.13 AAAA 2001:500:2d::d A 192.203.230.10 AAAA 2001:500:a8::e A 192.5.5.241 AAAA 2001:500:2f::f A 192.112.36.4 AAAA 2001:500:12::d0d A 198.97.190.53 AAAA 2001:500:1::53 A 192.36.148.17 AAAA 2001:7fe::53 A 192.58.128.30 AAAA 2001:503:c27::2:30 A 193.0.14.129 AAAA 2001:7fd::1 A 199.7.83.42 AAAA 2001:500:9f::42 A 202.12.27.33 AAAA 2001:dc3::35 OPT
+   16 3.623483311 192.168.0.12 ? 192.168.66.25 DNS 101 Standard query 0xd5d5 A a.gtld-servers.net OPT
+   17 3.624175534 192.168.0.12 ? 192.168.66.25 DNS 101 Standard query 0x89d8 A c.gtld-servers.net OPT
+   18 3.624245479 192.168.0.12 ? 192.168.66.25 DNS 101 Standard query 0xd737 A e.gtld-servers.net OPT
+   19 3.624472779 192.168.0.12 ? 192.168.66.25 DNS 101 Standard query 0xf78d A d.gtld-servers.net OPT
+   20 3.625357631 192.168.0.12 ? 192.168.66.25 DNS 101 Standard query 0x2db5 A b.gtld-servers.net OPT
+   21 4.017299262 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0x1306 A ads.google.com OPT
+   22 4.825346432 192.168.0.12 ? 192.203.230.10 DNS 101 Standard query 0x8929 A a.gtld-servers.net OPT
+   23 4.825680728 192.168.0.12 ? 192.203.230.10 DNS 101 Standard query 0x5112 A c.gtld-servers.net OPT
+   24 4.825727569 192.168.0.12 ? 192.203.230.10 DNS 101 Standard query 0xf10b A e.gtld-servers.net OPT
+   25 4.825800133 192.168.0.12 ? 192.203.230.10 DNS 101 Standard query 0xd7ab A d.gtld-servers.net OPT
+   26 4.826455572 192.168.0.12 ? 192.203.230.10 DNS 101 Standard query 0x0f97 A b.gtld-servers.net OPT
+   27 4.846138249 192.203.230.10 ? 192.168.0.12 DNS 1202 Standard query response 0x5112 A c.gtld-servers.net NS a.gtld-servers.net NS b.gtld-servers.net NS c.gtld-servers.net NS d.gtld-servers.net NS e.gtld-servers.net NS f.gtld-servers.net NS g.gtld-servers.net NS h.gtld-servers.net NS i.gtld-servers.net NS j.gtld-servers.net NS k.gtld-servers.net NS l.gtld-servers.net NS m.gtld-servers.net DS RRSIG A 192.5.6.30 AAAA 2001:503:a83e::2:30 A 192.33.14.30 AAAA 2001:503:231d::2:30 A 192.26.92.30 AAAA 2001:503:83eb::30 A 192.31.80.30 AAAA 2001:500:856e::30 A 192.12.94.30 AAAA 2001:502:1ca1::30 A 192.35.51.30 AAAA 2001:503:d414::30 A 192.42.93.30 AAAA 2001:503:eea3::30 A 192.54.112.30 AAAA 2001:502:8cc::30 A 192.43.172.30 AAAA 2001:503:39c1::30 A 192.48.79.30 AAAA 2001:502:7094::30 A 192.52.178.30 AAAA 2001:503:d2d::30 A 192.41.162.30 AAAA 2001:500:d937::30 A 192.55.83.30 AAAA 2001:501:b1f9::30 OPT
+   28 4.846534782 192.203.230.10 ? 192.168.0.12 DNS 1202 Standard query response 0x8929 A a.gtld-servers.net NS a.gtld-servers.net NS b.gtld-servers.net NS c.gtld-servers.net NS d.gtld-servers.net NS e.gtld-servers.net NS f.gtld-servers.net NS g.gtld-servers.net NS h.gtld-servers.net NS i.gtld-servers.net NS j.gtld-servers.net NS k.gtld-servers.net NS l.gtld-servers.net NS m.gtld-servers.net DS RRSIG A 192.5.6.30 AAAA 2001:503:a83e::2:30 A 192.33.14.30 AAAA 2001:503:231d::2:30 A 192.26.92.30 AAAA 2001:503:83eb::30 A 192.31.80.30 AAAA 2001:500:856e::30 A 192.12.94.30 AAAA 2001:502:1ca1::30 A 192.35.51.30 AAAA 2001:503:d414::30 A 192.42.93.30 AAAA 2001:503:eea3::30 A 192.54.112.30 AAAA 2001:502:8cc::30 A 192.43.172.30 AAAA 2001:503:39c1::30 A 192.48.79.30 AAAA 2001:502:7094::30 A 192.52.178.30 AAAA 2001:503:d2d::30 A 192.41.162.30 AAAA 2001:500:d937::30 A 192.55.83.30 AAAA 2001:501:b1f9::30 OPT
+   29 4.846690946 192.203.230.10 ? 192.168.0.12 DNS 1202 Standard query response 0xf10b A e.gtld-servers.net NS a.gtld-servers.net NS b.gtld-servers.net NS c.gtld-servers.net NS d.gtld-servers.net NS e.gtld-servers.net NS f.gtld-servers.net NS g.gtld-servers.net NS h.gtld-servers.net NS i.gtld-servers.net NS j.gtld-servers.net NS k.gtld-servers.net NS l.gtld-servers.net NS m.gtld-servers.net DS RRSIG A 192.5.6.30 AAAA 2001:503:a83e::2:30 A 192.33.14.30 AAAA 2001:503:231d::2:30 A 192.26.92.30 AAAA 2001:503:83eb::30 A 192.31.80.30 AAAA 2001:500:856e::30 A 192.12.94.30 AAAA 2001:502:1ca1::30 A 192.35.51.30 AAAA 2001:503:d414::30 A 192.42.93.30 AAAA 2001:503:eea3::30 A 192.54.112.30 AAAA 2001:502:8cc::30 A 192.43.172.30 AAAA 2001:503:39c1::30 A 192.48.79.30 AAAA 2001:502:7094::30 A 192.52.178.30 AAAA 2001:503:d2d::30 A 192.41.162.30 AAAA 2001:500:d937::30 A 192.55.83.30 AAAA 2001:501:b1f9::30 OPT
+   30 4.847029040 192.203.230.10 ? 192.168.0.12 DNS 1202 Standard query response 0xd7ab A d.gtld-servers.net NS a.gtld-servers.net NS b.gtld-servers.net NS c.gtld-servers.net NS d.gtld-servers.net NS e.gtld-servers.net NS f.gtld-servers.net NS g.gtld-servers.net NS h.gtld-servers.net NS i.gtld-servers.net NS j.gtld-servers.net NS k.gtld-servers.net NS l.gtld-servers.net NS m.gtld-servers.net DS RRSIG A 192.5.6.30 AAAA 2001:503:a83e::2:30 A 192.33.14.30 AAAA 2001:503:231d::2:30 A 192.26.92.30 AAAA 2001:503:83eb::30 A 192.31.80.30 AAAA 2001:500:856e::30 A 192.12.94.30 AAAA 2001:502:1ca1::30 A 192.35.51.30 AAAA 2001:503:d414::30 A 192.42.93.30 AAAA 2001:503:eea3::30 A 192.54.112.30 AAAA 2001:502:8cc::30 A 192.43.172.30 AAAA 2001:503:39c1::30 A 192.48.79.30 AAAA 2001:502:7094::30 A 192.52.178.30 AAAA 2001:503:d2d::30 A 192.41.162.30 AAAA 2001:500:d937::30 A 192.55.83.30 AAAA 2001:501:b1f9::30 OPT
+   31 4.847787164 192.168.0.12 ? 192.33.14.30 DNS 101 Standard query 0xc04d A a.gtld-servers.net OPT
+   32 4.848288820 192.168.0.12 ? 192.33.14.30 DNS 101 Standard query 0x277b A c.gtld-servers.net OPT
+   33 4.848331961 192.168.0.12 ? 192.33.14.30 DNS 101 Standard query 0xa99a A e.gtld-servers.net OPT
+   34 4.848339990 192.168.0.12 ? 192.33.14.30 DNS 101 Standard query 0x3821 A d.gtld-servers.net OPT
+   35 4.848906649 192.203.230.10 ? 192.168.0.12 DNS 1202 Standard query response 0x0f97 A b.gtld-servers.net NS a.gtld-servers.net NS b.gtld-servers.net NS c.gtld-servers.net NS d.gtld-servers.net NS e.gtld-servers.net NS f.gtld-servers.net NS g.gtld-servers.net NS h.gtld-servers.net NS i.gtld-servers.net NS j.gtld-servers.net NS k.gtld-servers.net NS l.gtld-servers.net NS m.gtld-servers.net DS RRSIG A 192.5.6.30 AAAA 2001:503:a83e::2:30 A 192.33.14.30 AAAA 2001:503:231d::2:30 A 192.26.92.30 AAAA 2001:503:83eb::30 A 192.31.80.30 AAAA 2001:500:856e::30 A 192.12.94.30 AAAA 2001:502:1ca1::30 A 192.35.51.30 AAAA 2001:503:d414::30 A 192.42.93.30 AAAA 2001:503:eea3::30 A 192.54.112.30 AAAA 2001:502:8cc::30 A 192.43.172.30 AAAA 2001:503:39c1::30 A 192.48.79.30 AAAA 2001:502:7094::30 A 192.52.178.30 AAAA 2001:503:d2d::30 A 192.41.162.30 AAAA 2001:500:d937::30 A 192.55.83.30 AAAA 2001:501:b1f9::30 OPT
+   36 4.849874244 192.168.0.12 ? 192.33.14.30 DNS 101 Standard query 0x1aeb A b.gtld-servers.net OPT
+   37 4.884026177 192.33.14.30 ? 192.168.0.12 DNS 527 Standard query response 0xa99a A e.gtld-servers.net NS av1.nstld.com NS av2.nstld.com NS av3.nstld.com NS av4.nstld.com NSEC3 RRSIG NSEC3 RRSIG OPT
+   38 4.884787623 192.33.14.30 ? 192.168.0.12 DNS 527 Standard query response 0x277b A c.gtld-servers.net NS av1.nstld.com NS av2.nstld.com NS av3.nstld.com NS av4.nstld.com NSEC3 RRSIG NSEC3 RRSIG OPT
+   39 4.885373321 192.168.0.12 ? 192.168.66.26 DNS 96 Standard query 0x3757 A av3.nstld.com OPT
+   40 4.885393724 192.168.0.12 ? 192.168.66.26 DNS 96 Standard query 0x1fda A av1.nstld.com OPT
+   41 4.885521951 192.168.0.12 ? 192.168.66.26 DNS 96 Standard query 0x74aa A av2.nstld.com OPT
+   42 4.885699114 192.168.0.12 ? 192.168.66.26 DNS 96 Standard query 0xb1e0 A av4.nstld.com OPT
+   43 4.886203502 192.33.14.30 ? 192.168.0.12 DNS 527 Standard query response 0x3821 A d.gtld-servers.net NS av1.nstld.com NS av2.nstld.com NS av3.nstld.com NS av4.nstld.com NSEC3 RRSIG NSEC3 RRSIG OPT
+   44 4.886344124 192.33.14.30 ? 192.168.0.12 DNS 527 Standard query response 0xc04d A a.gtld-servers.net NS av1.nstld.com NS av2.nstld.com NS av3.nstld.com NS av4.nstld.com NSEC3 RRSIG NSEC3 RRSIG OPT
+   45 4.886553926 192.33.14.30 ? 192.168.0.12 DNS 527 Standard query response 0x1aeb A b.gtld-servers.net NS av1.nstld.com NS av2.nstld.com NS av3.nstld.com NS av4.nstld.com NSEC3 RRSIG NSEC3 RRSIG OPT
+   46 5.005803631 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0x2bb6 A ads.google.com OPT
+   47 6.017420166 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0xe865 A ads.google.com OPT
+   48 6.087378555 192.168.0.12 ? 192.168.66.25 DNS 96 Standard query 0x92da A av2.nstld.com OPT
+   49 6.087399877 192.168.0.12 ? 192.168.66.25 DNS 96 Standard query 0x2bc1 A av3.nstld.com OPT
+   50 6.087677742 192.168.0.12 ? 192.168.66.25 DNS 96 Standard query 0x0b55 A av1.nstld.com OPT
+   51 6.087744781 192.168.0.12 ? 192.168.66.25 DNS 96 Standard query 0x83d6 A av4.nstld.com OPT
+   52 7.012980650 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0x34a4 A ads.google.com OPT
+   53 7.289186926 192.168.0.12 ? 192.31.80.30 DNS 96 Standard query 0x3be4 A av3.nstld.com OPT
+   54 7.289267065 192.168.0.12 ? 192.31.80.30 DNS 96 Standard query 0x37aa A av2.nstld.com OPT
+   55 7.289730001 192.168.0.12 ? 192.31.80.30 DNS 96 Standard query 0xc42b A av1.nstld.com OPT
+   56 7.289792087 192.168.0.12 ? 192.31.80.30 DNS 96 Standard query 0xe80e A av4.nstld.com OPT
+   57 7.339901318 192.31.80.30 ? 192.168.0.12 DNS 685 Standard query response 0x3be4 A av3.nstld.com NS av1.nstld.com NS av2.nstld.com NS av3.nstld.com NS av4.nstld.com NSEC3 RRSIG NSEC3 RRSIG A 192.42.177.30 AAAA 2001:500:124::30 A 192.42.178.30 AAAA 2001:500:125::30 A 192.82.133.30 AAAA 2001:500:126::30 A 192.82.134.30 AAAA 2001:500:127::30 OPT
+   58 7.340634821 192.31.80.30 ? 192.168.0.12 DNS 685 Standard query response 0x37aa A av2.nstld.com NS av1.nstld.com NS av2.nstld.com NS av3.nstld.com NS av4.nstld.com NSEC3 RRSIG NSEC3 RRSIG A 192.42.177.30 AAAA 2001:500:124::30 A 192.42.178.30 AAAA 2001:500:125::30 A 192.82.133.30 AAAA 2001:500:126::30 A 192.82.134.30 AAAA 2001:500:127::30 OPT
+   59 7.340864598 192.168.0.12 ? 192.42.178.30 DNS 96 Standard query 0xe1d6 A av3.nstld.com OPT
+   60 7.341204581 192.31.80.30 ? 192.168.0.12 DNS 685 Standard query response 0xc42b A av1.nstld.com NS av1.nstld.com NS av2.nstld.com NS av3.nstld.com NS av4.nstld.com NSEC3 RRSIG NSEC3 RRSIG A 192.42.177.30 AAAA 2001:500:124::30 A 192.42.178.30 AAAA 2001:500:125::30 A 192.82.133.30 AAAA 2001:500:126::30 A 192.82.134.30 AAAA 2001:500:127::30 OPT
+   61 7.341352653 192.168.0.12 ? 192.42.178.30 DNS 96 Standard query 0xf9c0 A av2.nstld.com OPT
+   62 7.342046113 192.168.0.12 ? 192.42.178.30 DNS 96 Standard query 0xc7ec A av1.nstld.com OPT
+   63 7.342708834 192.31.80.30 ? 192.168.0.12 DNS 685 Standard query response 0xe80e A av4.nstld.com NS av1.nstld.com NS av2.nstld.com NS av3.nstld.com NS av4.nstld.com NSEC3 RRSIG NSEC3 RRSIG A 192.42.177.30 AAAA 2001:500:124::30 A 192.42.178.30 AAAA 2001:500:125::30 A 192.82.133.30 AAAA 2001:500:126::30 A 192.82.134.30 AAAA 2001:500:127::30 OPT
+   64 7.343297629 192.168.0.12 ? 192.42.178.30 DNS 96 Standard query 0x285b A av4.nstld.com OPT
+   65 7.360038032 192.42.178.30 ? 192.168.0.12 DNS 328 Standard query response 0xf9c0 A av2.nstld.com A 192.42.178.30 NS av4.nstld.com NS av2.nstld.com NS av3.nstld.com NS av1.nstld.com A 192.82.134.30 AAAA 2001:500:127::30 AAAA 2001:500:125::30 A 192.82.133.30 AAAA 2001:500:126::30 A 192.42.177.30 AAAA 2001:500:124::30 OPT
+   66 7.360475288 192.42.178.30 ? 192.168.0.12 DNS 328 Standard query response 0xe1d6 A av3.nstld.com A 192.82.133.30 NS av4.nstld.com NS av2.nstld.com NS av3.nstld.com NS av1.nstld.com A 192.82.134.30 AAAA 2001:500:127::30 A 192.42.178.30 AAAA 2001:500:125::30 AAAA 2001:500:126::30 A 192.42.177.30 AAAA 2001:500:124::30 OPT
+   67 7.360786082 192.168.0.12 ? 192.82.133.30 DNS 101 Standard query 0xaa17 A a.gtld-servers.net OPT
+   68 7.360808779 192.168.0.12 ? 192.82.133.30 DNS 101 Standard query 0x4961 A b.gtld-servers.net OPT
+   69 7.360901364 192.168.0.12 ? 192.82.133.30 DNS 101 Standard query 0x5528 A d.gtld-servers.net OPT
+   70 7.361100125 192.168.0.12 ? 192.82.133.30 DNS 101 Standard query 0xf56e A e.gtld-servers.net OPT
+   71 7.361147927 192.168.0.12 ? 192.82.133.30 DNS 101 Standard query 0x15c6 A c.gtld-servers.net OPT
+   72 7.362401246 192.42.178.30 ? 192.168.0.12 DNS 328 Standard query response 0xc7ec A av1.nstld.com A 192.42.177.30 NS av4.nstld.com NS av2.nstld.com NS av3.nstld.com NS av1.nstld.com A 192.82.134.30 AAAA 2001:500:127::30 A 192.42.178.30 AAAA 2001:500:125::30 A 192.82.133.30 AAAA 2001:500:126::30 AAAA 2001:500:124::30 OPT
+   73 7.364390946 192.42.178.30 ? 192.168.0.12 DNS 328 Standard query response 0x285b A av4.nstld.com A 192.82.134.30 NS av4.nstld.com NS av2.nstld.com NS av3.nstld.com NS av1.nstld.com AAAA 2001:500:127::30 A 192.42.178.30 AAAA 2001:500:125::30 A 192.82.133.30 AAAA 2001:500:126::30 A 192.42.177.30 AAAA 2001:500:124::30 OPT
+   74 7.396923834 192.82.133.30 ? 192.168.0.12 DNS 186 Standard query response 0x5528 A d.gtld-servers.net A 192.31.80.30 NS av4.nstld.com NS av2.nstld.com NS av3.nstld.com NS av1.nstld.com OPT
+   75 7.397155278 192.82.133.30 ? 192.168.0.12 DNS 186 Standard query response 0x4961 A b.gtld-servers.net A 192.33.14.30 NS av4.nstld.com NS av2.nstld.com NS av3.nstld.com NS av1.nstld.com OPT
+   76 7.397830013 192.168.0.12 ? 192.168.66.26 DNS 93 Standard query 0x6d4d NS google.com OPT
+   77 7.397851846 192.82.133.30 ? 192.168.0.12 DNS 186 Standard query response 0xaa17 A a.gtld-servers.net A 192.5.6.30 NS av4.nstld.com NS av2.nstld.com NS av3.nstld.com NS av1.nstld.com OPT
+   78 7.398207018 192.82.133.30 ? 192.168.0.12 DNS 186 Standard query response 0xf56e A e.gtld-servers.net A 192.12.94.30 NS av4.nstld.com NS av2.nstld.com NS av3.nstld.com NS av1.nstld.com OPT
+   79 7.398402162 192.82.133.30 ? 192.168.0.12 DNS 186 Standard query response 0x15c6 A c.gtld-servers.net A 192.26.92.30 NS av4.nstld.com NS av2.nstld.com NS av3.nstld.com NS av1.nstld.com OPT
+   80 8.031914294 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0x1dcc A ads.google.com OPT
+   81 8.599471182 192.168.0.12 ? 192.168.66.25 DNS 93 Standard query 0xab86 NS google.com OPT
+   82 9.018299198 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0x1306 A ads.google.com OPT
+   83 9.883183229 192.168.0.12 ? 192.168.0.12 DNS 129 Standard query response 0x2bb6 A ads.google.com A 142.251.214.78 OPT
+   84 9.883270519 192.168.0.12 ? 192.168.0.12 DNS 129 Standard query response 0x34a4 A ads.google.com A 142.251.214.78 OPT
+   85 9.883377121 192.168.0.12 ? 192.168.0.12 DNS 129 Standard query response 0x1306 A ads.google.com A 142.251.214.78 OPT
+   86 9.883452558 192.168.0.12 ? 192.168.0.12 DNS 129 Standard query response 0xe865 A ads.google.com A 142.251.214.78 OPT
+   87 9.883539511 192.168.0.12 ? 192.168.0.12 DNS 129 Standard query response 0x1306 A ads.google.com A 142.251.214.78 OPT
+   88 9.883669642 192.168.0.12 ? 192.168.0.12 DNS 129 Standard query response 0x34a4 A ads.google.com A 142.251.214.78 OPT
+   89 9.883679034 192.168.0.12 ? 192.168.0.12 DNS 129 Standard query response 0x2bb6 A ads.google.com A 142.251.214.78 OPT
+   90 9.883699409 192.168.0.12 ? 192.168.0.12 DNS 129 Standard query response 0x1dcc A ads.google.com A 142.251.214.78 OPT
+   91 9.801298972 192.168.0.12 ? 192.55.83.30 DNS 93 Standard query 0x1568 NS google.com OPT
+   92 9.839138184 192.55.83.30 ? 192.168.0.12 DNS 686 Standard query response 0x1568 NS google.com NS ns2.google.com NS ns1.google.com NS ns3.google.com NS ns4.google.com NSEC3 RRSIG NSEC3 RRSIG AAAA 2001:4860:4802:34::a A 216.239.34.10 AAAA 2001:4860:4802:32::a A 216.239.32.10 AAAA 2001:4860:4802:36::a A 216.239.36.10 AAAA 2001:4860:4802:38::a A 216.239.38.10 OPT
+   93 9.840129354 192.168.0.12 ? 216.239.36.10 DNS 97 Standard query 0x134b A ads.google.com OPT
+   94 9.882641386 216.239.36.10 ? 192.168.0.12 DNS 101 Standard query response 0x134b A ads.google.com A 142.251.214.78 OPT
+   95 10.040569112 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0x0201 A ads.google.com OPT
+   96 10.040805711 192.168.0.12 ? 192.168.0.12 DNS 129 Standard query response 0x0201 A ads.google.com A 142.251.214.78 OPT

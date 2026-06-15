@@ -1,0 +1,45 @@
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'Loopback: lo' and 'enp13s0'
+    1 0.000000000 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0xd6c5 A ads.google.com OPT
+    2 0.000434711 192.168.0.12 ? 192.168.66.26 DNS 97 Standard query 0x8ba7 A ads.google.com OPT
+    3 0.000483727 192.168.0.12 ? 170.247.170.2 DNS 82 Standard query 0x2cc2 NS <Root> OPT
+    4 0.800861517 192.168.0.12 ? 192.203.230.10 DNS 82 Standard query 0x724c NS <Root> OPT
+    5 1.201758855 192.168.0.12 ? 192.168.66.25 DNS 97 Standard query 0x60df A ads.google.com OPT
+    6 1.601462087 192.168.0.12 ? 198.41.0.4   DNS 82 Standard query 0xa293 NS <Root> OPT
+    7 2.021185280 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0x01fb A ads.google.com OPT
+    8 2.401752534 192.168.0.12 ? 202.12.27.33 DNS 82 Standard query 0xf4e2 NS <Root> OPT
+    9 2.402958952 192.168.0.12 ? 170.247.170.2 DNS 97 Standard query 0x90af A ads.google.com OPT
+   10 3.202942145 192.168.0.12 ? 192.112.36.4 DNS 82 Standard query 0x0049 NS <Root> OPT
+   11 3.203890543 192.168.0.12 ? 192.203.230.10 DNS 97 Standard query 0x4b84 A ads.google.com OPT
+   12 4.002836628 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0x8270 A ads.google.com OPT
+   13 4.003637354 192.168.0.12 ? 193.0.14.129 DNS 82 Standard query 0xba5c NS <Root> OPT
+   14 4.004616207 192.168.0.12 ? 198.41.0.4   DNS 97 Standard query 0x7ff4 A ads.google.com OPT
+   15 4.804625757 192.168.0.12 ? 192.33.4.12  DNS 82 Standard query 0x06bc NS <Root> OPT
+   16 4.805163937 192.168.0.12 ? 202.12.27.33 DNS 97 Standard query 0x6f86 A ads.google.com OPT
+   17 5.003463077 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0xd6c5 A ads.google.com OPT
+   18 5.605818712 192.168.0.12 ? 198.97.190.53 DNS 82 Standard query 0xf15a NS <Root> OPT
+   19 5.606357432 192.168.0.12 ? 192.112.36.4 DNS 97 Standard query 0x0228 A ads.google.com OPT
+   20 6.007890386 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0x48d8 A ads.google.com OPT
+   21 6.406750333 192.168.0.12 ? 199.7.91.13  DNS 82 Standard query 0x253f NS <Root> OPT
+   22 6.406755314 192.168.0.12 ? 193.0.14.129 DNS 97 Standard query 0xc101 A ads.google.com OPT
+   23 7.024989256 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0x01fb A ads.google.com OPT
+   24 7.207887256 192.168.0.12 ? 192.33.4.12  DNS 97 Standard query 0xf19a A ads.google.com OPT
+   25 7.207912394 192.168.0.12 ? 192.5.5.241  DNS 82 Standard query 0x1795 NS <Root> OPT
+   26 8.013055400 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0x31f3 A ads.google.com OPT
+   27 8.008722811 192.168.0.12 ? 192.58.128.30 DNS 82 Standard query 0x62a3 NS <Root> OPT
+   28 8.008731144 192.168.0.12 ? 198.97.190.53 DNS 97 Standard query 0x8f21 A ads.google.com OPT
+   29 8.810000070 192.168.0.12 ? 199.7.83.42  DNS 82 Standard query 0xa54e NS <Root> OPT
+   30 8.810019424 192.168.0.12 ? 199.7.91.13  DNS 97 Standard query 0x7012 A ads.google.com OPT
+   31 9.008673304 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0x8270 A ads.google.com OPT
+   32 9.610774626 192.168.0.12 ? 192.36.148.17 DNS 82 Standard query 0x04d6 NS <Root> OPT
+   33 9.610786433 192.168.0.12 ? 192.5.5.241  DNS 97 Standard query 0xf5c3 A ads.google.com OPT
+   34 9.999408263 192.168.0.12 ? 192.168.0.12 DNS 113 Standard query response 0x01fb Server failure A ads.google.com OPT
+   35 9.999533137 192.168.0.12 ? 192.168.0.12 DNS 113 Standard query response 0x48d8 Server failure A ads.google.com OPT
+   36 9.999638659 192.168.0.12 ? 192.168.0.12 DNS 113 Standard query response 0x8270 Server failure A ads.google.com OPT
+   37 9.999715316 192.168.0.12 ? 192.168.0.12 DNS 113 Standard query response 0x31f3 Server failure A ads.google.com OPT
+   38 9.999756211 192.168.0.12 ? 192.168.0.12 DNS 113 Standard query response 0xd6c5 Server failure A ads.google.com OPT
+   39 9.999821807 192.168.0.12 ? 192.168.0.12 DNS 113 Standard query response 0x8270 Server failure A ads.google.com OPT
+   40 9.999881891 192.168.0.12 ? 192.168.0.12 DNS 113 Standard query response 0xd6c5 Server failure A ads.google.com OPT
+   41 9.999928275 192.168.0.12 ? 192.168.0.12 DNS 113 Standard query response 0x01fb Server failure A ads.google.com OPT
+   42 10.013615564 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0x02b8 A ads.google.com OPT
+   43 10.013717315 192.168.0.12 ? 192.168.0.12 DNS 113 Standard query response 0x02b8 Server failure A ads.google.com OPT

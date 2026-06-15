@@ -1,0 +1,51 @@
+13-Jun-2026 20:37:59.946 starting BIND 9.18.49 (Extended Support Version) <id:>
+13-Jun-2026 20:37:59.946 running on Linux x86_64 6.19.14-ogc5.1.fc44.x86_64 #1 SMP PREEMPT_DYNAMIC Fri May 15 05:12:23 UTC 2026
+13-Jun-2026 20:37:59.946 built with  '--build=x86_64-redhat-linux-gnu' '--host=x86_64-redhat-linux-gnu' '--program-prefix=' '--disable-dependency-tracking' '--prefix=/usr' '--exec-prefix=/usr' '--bindir=/usr/bin' '--sbindir=/usr/bin' '--sysconfdir=/etc' '--datadir=/usr/share' '--includedir=/usr/include' '--libdir=/usr/lib64' '--libexecdir=/usr/libexec' '--runstatedir=/run' '--sharedstatedir=/var/lib' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--localstatedir=/var' '--with-pic' '--disable-static' '--includedir=/usr/include/bind9' '--with-tuning=large' '--with-libidn2' '--with-maxminddb' '--with-gssapi=yes' '--with-lmdb=yes' '--with-json-c' '--enable-dnstap' '--with-cmocka' '--without-jemalloc' '--enable-fixed-rrset' '--enable-full-report' 'CPPFLAGS= -DOPENSSL_NO_ENGINE=1' 'build_alias=x86_64-redhat-linux-gnu' 'host_alias=x86_64-redhat-linux-gnu' 'CC=gcc' 'CFLAGS=-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer  ' 'LDFLAGS=-Wl,-z,relro -Wl,--as-needed  -Wl,-z,pack-relative-relocs -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-hardened-ld-errors -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -Wl,--build-id=sha1 -specs=/usr/lib/rpm/redhat/redhat-package-notes  ' 'LT_SYS_LIBRARY_PATH=/usr/lib64:' 'PKG_CONFIG_PATH=:/usr/lib64/pkgconfig:/usr/share/pkgconfig'
+13-Jun-2026 20:37:59.946 running as: named -g -c /etc/named.conf -4 -u named
+13-Jun-2026 20:37:59.946 compiled by GCC 16.1.1 20260515 (Red Hat 16.1.1-2)
+13-Jun-2026 20:37:59.946 compiled with OpenSSL version: OpenSSL 3.5.5 27 Jan 2026
+13-Jun-2026 20:37:59.946 linked to OpenSSL version: OpenSSL 3.5.7 9 Jun 2026
+13-Jun-2026 20:37:59.946 compiled with libuv version: 1.51.0
+13-Jun-2026 20:37:59.946 linked to libuv version: 1.51.0
+13-Jun-2026 20:37:59.946 compiled with libxml2 version: 2.12.10
+13-Jun-2026 20:37:59.946 linked to libxml2 version: 21210
+13-Jun-2026 20:37:59.946 compiled with json-c version: 0.18
+13-Jun-2026 20:37:59.946 linked to json-c version: 0.18
+13-Jun-2026 20:37:59.946 compiled with zlib version: 1.3.1.zlib-ng
+13-Jun-2026 20:37:59.946 linked to zlib version: 1.3.1.zlib-ng
+13-Jun-2026 20:37:59.946 ----------------------------------------------------
+13-Jun-2026 20:37:59.946 BIND 9 is maintained by Internet Systems Consortium,
+13-Jun-2026 20:37:59.946 Inc. (ISC), a non-profit 501(c)(3) public-benefit 
+13-Jun-2026 20:37:59.946 corporation.  Support and training for BIND 9 are 
+13-Jun-2026 20:37:59.946 available at https://www.isc.org/support
+13-Jun-2026 20:37:59.946 ----------------------------------------------------
+13-Jun-2026 20:37:59.946 found 8 CPUs, using 8 worker threads
+13-Jun-2026 20:37:59.946 using 8 UDP listeners per interface
+13-Jun-2026 20:37:59.948 DNSSEC algorithms: RSASHA256 RSASHA512 ECDSAP256SHA256 ECDSAP384SHA384 ED25519 ED448
+13-Jun-2026 20:37:59.948 DS algorithms: SHA-1 SHA-256 SHA-384
+13-Jun-2026 20:37:59.948 HMAC algorithms: HMAC-MD5 HMAC-SHA1 HMAC-SHA224 HMAC-SHA256 HMAC-SHA384 HMAC-SHA512
+13-Jun-2026 20:37:59.948 TKEY mode 2 support (Diffie-Hellman): yes
+13-Jun-2026 20:37:59.948 TKEY mode 3 support (GSS-API): yes
+13-Jun-2026 20:37:59.949 the initial working directory is '/'
+13-Jun-2026 20:37:59.949 loading configuration from '/etc/named.conf'
+13-Jun-2026 20:37:59.950 the working directory is now '/var/named'
+13-Jun-2026 20:37:59.950 unable to open '/etc/bind.keys'; using built-in keys instead
+13-Jun-2026 20:37:59.950 looking for GeoIP2 databases in '/usr/share/GeoIP'
+13-Jun-2026 20:37:59.950 using default UDP/IPv4 port range: [32768, 60999]
+13-Jun-2026 20:37:59.951 listening on IPv4 interface lo, 127.0.0.1#53
+13-Jun-2026 20:37:59.952 listening on IPv4 interface enp13s0, 192.168.0.12#53
+13-Jun-2026 20:37:59.952 generating session key for dynamic DNS
+13-Jun-2026 20:37:59.952 sizing zone task pool based on 1 zones
+13-Jun-2026 20:37:59.953 none:100: 'max-cache-size 90%' - setting to 14326MB (out of 15918MB)
+13-Jun-2026 20:37:59.960 set up managed keys zone for view _default, file 'managed-keys.bind'
+13-Jun-2026 20:37:59.968 configuring command channel from '/etc/rndc.key'
+13-Jun-2026 20:37:59.968 command channel listening on 127.0.0.1#953
+13-Jun-2026 20:37:59.968 not using config file logging statement for logging due to -g option
+13-Jun-2026 20:37:59.970 managed-keys-zone: loaded serial 0
+13-Jun-2026 20:37:59.972 all zones loaded
+13-Jun-2026 20:37:59.972 running
+13-Jun-2026 20:38:13.956 no longer listening on 127.0.0.1#53
+13-Jun-2026 20:38:13.957 no longer listening on 192.168.0.12#53
+13-Jun-2026 20:38:13.957 shutting down
+13-Jun-2026 20:38:13.957 stopping command channel on 127.0.0.1#953
+13-Jun-2026 20:38:13.978 exiting

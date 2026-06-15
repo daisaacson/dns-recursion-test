@@ -1,0 +1,4 @@
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'Loopback: lo' and 'enp13s0'
+tshark: The file to which the capture would be saved ("logs/20260614-205945/named-forward-only-down/server.pcap") could not be opened: No such file or directory.
+0 packets captured

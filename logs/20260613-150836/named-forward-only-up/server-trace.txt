@@ -1,0 +1,24 @@
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'Loopback: lo' and 'enp13s0'
+    1 0.000000000 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0x4802 A ads.google.com OPT
+    2 0.003505342 192.168.0.12 ? 192.168.0.12 DNS 129 Standard query response 0x4802 A ads.google.com A 0.0.0.0 OPT
+    3 0.000569366 192.168.0.12 ? 192.168.0.26 DNS 97 Standard query 0x4dae A ads.google.com OPT
+    4 0.003237204 192.168.0.26 ? 192.168.0.12 DNS 114 Standard query response 0x4dae A ads.google.com A 0.0.0.0 OPT
+    5 2.022413073 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0x048a A ads.google.com OPT
+    6 2.025193184 192.168.0.12 ? 192.168.0.12 DNS 129 Standard query response 0x048a A ads.google.com A 0.0.0.0 OPT
+    7 2.022958937 192.168.0.12 ? 192.168.0.25 DNS 97 Standard query 0xb767 A ads.google.com OPT
+    8 2.024970869 192.168.0.25 ? 192.168.0.12 DNS 114 Standard query response 0xb767 A ads.google.com A 0.0.0.0 OPT
+    9 4.029169915 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0x8e93 A ads.google.com OPT
+   10 4.031855558 192.168.0.12 ? 192.168.0.12 DNS 129 Standard query response 0x8e93 A ads.google.com A 0.0.0.0 OPT
+   11 4.029649256 192.168.0.12 ? 192.168.0.25 DNS 97 Standard query 0xae82 A ads.google.com OPT
+   12 4.031511950 192.168.0.25 ? 192.168.0.12 DNS 114 Standard query response 0xae82 A ads.google.com A 0.0.0.0 OPT
+   13 6.008988589 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0x3954 A ads.google.com OPT
+   14 6.009134522 192.168.0.12 ? 192.168.0.12 DNS 129 Standard query response 0x3954 A ads.google.com A 0.0.0.0 OPT
+   15 8.039033573 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0x4936 A ads.google.com OPT
+   16 8.041893200 192.168.0.12 ? 192.168.0.12 DNS 129 Standard query response 0x4936 A ads.google.com A 0.0.0.0 OPT
+   17 8.039401174 192.168.0.12 ? 192.168.0.26 DNS 97 Standard query 0x8c05 A ads.google.com OPT
+   18 8.041601276 192.168.0.26 ? 192.168.0.12 DNS 114 Standard query response 0x8c05 A ads.google.com A 0.0.0.0 OPT
+   19 10.048725160 192.168.0.12 ? 192.168.0.12 DNS 97 Standard query 0x7914 A ads.google.com OPT
+   20 10.051766850 192.168.0.12 ? 192.168.0.12 DNS 129 Standard query response 0x7914 A ads.google.com A 0.0.0.0 OPT
+   21 10.049065483 192.168.0.12 ? 192.168.0.25 DNS 97 Standard query 0x270c A ads.google.com OPT
+   22 10.051525973 192.168.0.25 ? 192.168.0.12 DNS 114 Standard query response 0x270c A ads.google.com A 0.0.0.0 OPT
